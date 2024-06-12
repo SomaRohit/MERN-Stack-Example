@@ -14,13 +14,12 @@ pipeline:
             steps:
               - step:
                   type: Run
-                  name: Echo Welcome Message
+                  name: initializing dependencies
                   identifier: Echo_Welcome_Message
                   spec:
                     shell: Sh
                     command: |-
-                      echo "Welcome to Harness CI"
-                      cd server
+                      -cd server
                       yarn install;
                       yarn test;
           platform:
