@@ -19,7 +19,7 @@ pipeline:
                   spec:
                     shell: Sh
                     command: |-
-                      -cd server
+                      cd server
                       yarn install;
                       yarn test;
           platform:
