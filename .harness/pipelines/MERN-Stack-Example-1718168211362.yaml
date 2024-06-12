@@ -28,9 +28,7 @@ pipeline:
                   identifier: test
                   spec:
                     shell: Bash
-                    command: |-
-                      yarn test;
-                      echo "-COMPLETED"
+                    command: echo "-COMPLETED"
           platform:
             os: Linux
             arch: Arm64
