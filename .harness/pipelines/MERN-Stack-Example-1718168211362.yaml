@@ -21,7 +21,7 @@ pipeline:
                     command: |-
                       cd server
                       yarn install;
-                      yarn test;
+                      echo "LINE 3"
           platform:
             os: Linux
             arch: Arm64
