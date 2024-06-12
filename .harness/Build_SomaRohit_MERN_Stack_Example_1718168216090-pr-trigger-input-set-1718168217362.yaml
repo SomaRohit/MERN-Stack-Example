@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SomaRohit_MERN_Stack_Example_1718168216090-pr-trigger-input-set
+  identifier: Build_SomaRohit_MERN_Stack_Example_1718168216090prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Sampleproject
+  pipeline:
+    identifier: Build_SomaRohit_MERN_Stack_Example_1718168216090
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
