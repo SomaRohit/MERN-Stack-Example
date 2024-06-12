@@ -31,6 +31,6 @@ pipeline:
   properties:
     ci:
       codebase:
-        connectorRef: somarohit
+        connectorRef: somaarohit
         repoName: MERN-Stack-Example
         build: <+input>
